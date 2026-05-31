@@ -6,7 +6,7 @@
     ]"
   >
     <div class="text-xl font-bold tracking-widest text-white">
-      JOMVINHKH
+      JOMVINH<span style="color: transparent ; -webkit-text-stroke:1px #d4a853 ;">KH</span>
     </div>
 
     <nav class="hidden space-x-8 md:flex">
