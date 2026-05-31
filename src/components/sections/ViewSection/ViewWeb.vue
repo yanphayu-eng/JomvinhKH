@@ -81,6 +81,29 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500&display=swap');
 
+.main-content {
+  padding: 2rem;
+  cursor: default; 
+}
+
+.sub-card-info {
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: default; 
+}
+
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 4rem;
+  cursor: default; 
+}
+
 .province-profile-section {
   background: #080808;
   color: #f5f0e8;
@@ -319,7 +342,7 @@
 
 @media (max-width: 680px) {
   .province-profile-section {
-    padding: 4rem 1.25rem;
+    padding: 5.5rem 1.25rem 4rem;
   }
   .sub-place-card {
     flex-direction: column;

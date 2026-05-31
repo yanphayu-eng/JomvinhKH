@@ -1,4 +1,4 @@
-<template>
+<template >
   <section class="hero-section">
     <div class="video-wrapper">
       <video ref="videoRef" class="hero-video" autoplay muted loop playsinline>
@@ -8,28 +8,21 @@
       <div class="grain" />
     </div>
 
-    <div class="hero-content">
+    <div class="hero-content" :class="{ visible: mounted }">
       <h1 class="hero-headline">
-        <span class="headline-line welcome-line" :class="{ visible: mounted }" style="transition-delay: 0.2s">
+        <span class="welcome-line">
           Welcome to
         </span>
-        <div class="typewriter-container">
-          <span class="headline-row">
-            <span class="bold-line">JOMVINH</span>
-            <span class="stroke-line">KH</span>
-          </span>
+        <div class="brand-title">
+          JOMVINH<span class="stroke-line">KH</span>      
         </div>
       </h1>
 
-      <div class="hero-divider" :class="{ visible: mounted }" style="transition-delay: 0.75s"></div>
-
-      <p class="hero-sub" :class="{ visible: mounted }" style="transition-delay: 0.82s">
-        We show you all the amazing places to visit in Cambodia.
-      </p>
+      <div class="hero-divider"></div>
     </div>
 
-    <button class="btn" :class="{ visible: mounted }" style="transition-delay: 1s">
-      <span>View All</span>
+    <button class="btn" :class="{ visible: mounted }">
+      <router-link to="/view"><span>View All</span></router-link>
     </button>
   </section>
 </template>
@@ -41,7 +34,7 @@ const videoRef = ref(null)
 const mounted = ref(false)
 
 onMounted(() => {
-  setTimeout(() => { mounted.value = true }, 100)
+  setTimeout(() => { mounted.value = true }, 50)
 })
 </script>
 
@@ -55,7 +48,7 @@ onMounted(() => {
   min-height: 600px;
   overflow: hidden;
   background: #080808;
-  font-family: 'Bebas Neue', sans-serif; /* Global section font */
+  font-family: 'Bebas Neue', sans-serif; 
   color: #f5f0e8;
 }
 
@@ -103,143 +96,107 @@ onMounted(() => {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 3.5rem 4rem;
-  max-width: 900px;
+  align-items: center; 
+  text-align: center;
+  padding: 0 1.5rem 4rem;
+  /* cursor: pointer; */
+
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hero-content.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .hero-headline {
+  background: transparent !important;
+  background-color: transparent !important;
   font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(60px, 12vw, 200px);
-  line-height: 0.9;
-  letter-spacing: 0.02em;
+  font-size: clamp(60px, 15vw, 180px);
+  line-height: 0.85;
+  letter-spacing: 0.03em;
   margin: 0 0 1.5rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.headline-line {
-  display: block;
-  opacity: 0;
-  transform: translateY(36px);
-  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.headline-line.visible {
-  opacity: 1;
-  transform: none;
-}
-
-/* Updated "Welcome to" font specs */
 .welcome-line {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+  font-size: clamp(1.5rem, 4vw, 3rem);
   font-weight: 400;
-  color: rgba(245, 240, 232, 0.75);
-  letter-spacing: 0.08em;
-  margin-bottom: 0.4rem;
+  color: #d4a853;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
   text-transform: uppercase;
 }
-
-.typewriter-container {
-  display: inline-block;
-  overflow: hidden; 
-  white-space: nowrap; 
-  border-right: 4px solid #d4a853; 
-  width: 0;
-  max-width: max-content;
-  animation: 
-    typing 5s steps(11, end) infinite,
-    blink 0.75s step-end infinite;
-}
-
-.headline-row {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.18em;
-}
-
-@keyframes typing {
-  0% { width: 0; }
-  40% { width: 100%; }   
-  60% { width: 100%; }  
-  90% { width: 0; }     
-  100% { width: 0; }
-}
-@keyframes blink {
-  from, to { border-color: transparent }
-  50% { border-color: #d4a853; }
-}
-
-.bold-line {
-  color: #f5f0e8;
+.brand-title {
+  background: transparent !important;
+  background-color: transparent !important;
+   cursor: default;
 }
 
 .stroke-line {
-  color: transparent;
+  background: transparent !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important; 
   -webkit-text-stroke: 2px #d4a853;
+  margin-left: 0.02em;
+   cursor: default;
 }
 
+
 .hero-divider {
-  width: 48px;
-  height: 1px;
+  width: 120px; 
+  height: 3px;
   background: #d4a853;
-  margin-bottom: 1.25rem;
-  opacity: 0;
+  margin-bottom: 1.5rem;
   transform: scaleX(0);
-  transform-origin: left;
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s;
 }
-.hero-divider.visible {
-  opacity: 1;
+.hero-content.visible .hero-divider {
   transform: scaleX(1);
 }
 
-/* Updated subtext font alignment */
 .hero-sub {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
   font-weight: 400;
-  color: rgba(245, 240, 232, 0.6);
-  letter-spacing: 0.08em;
-  line-height: 1.4;
+  color: rgba(245, 240, 232, 0.75);
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  max-width: 600px;
   margin: 0;
-  opacity: 0;
-  transform: translateY(12px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-.hero-sub.visible {
-  opacity: 1;
-  transform: none;
 }
 
-/* Updated button typography definitions */
 .btn {
   position: absolute;
   bottom: 3rem;
-  left: 3.5rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px); /* Perfectly center matches UI layout flow */
   z-index: 10;
   display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
   padding: 0.85rem 2.2rem;
   background: transparent;
   border: 1px solid rgba(245, 240, 232, 0.3);
   color: #f5f0e8;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1rem;
-  font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   cursor: pointer;
   overflow: hidden;
   opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 0.4s ease, transform 0.4s ease,
-              border-color 0.25s, color 0.25s;
+  transition: opacity 0.6s ease 0.4s, 
+              transform 0.6s ease 0.4s,
+              border-color 0.25s, 
+              color 0.25s;
 }
 .btn.visible {
   opacity: 1;
-  transform: none;
+  transform: translateX(-50%) translateY(0);
 }
 .btn span {
   position: relative;
@@ -261,8 +218,4 @@ onMounted(() => {
   color: #080808;
 }
 
-@media (max-width: 768px) {
-  .hero-content { padding: 0 1.75rem 4rem; }
-  .btn { left: 1.75rem; bottom: 2rem; }
-}
 </style>

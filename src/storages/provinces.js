@@ -97,7 +97,7 @@ const provinces = [
     "capital": "Battambang",
     "area_km2": 11702,
     "population": 987400,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRieefH3OUBQOaARX2SJnk_g27G4t3F4l8uFA&s",
+    "image": "https://privateangkorwattour.com/wp-content/uploads/Battambang-tour.webp",
     "des": "Battambang is a leading agricultural powerhouse often affectionately called 'The Rice Bowl of Cambodia'. Located in the northwest, the province is rich in historical heritage, featuring remarkably well-preserved French colonial architecture along the Sangkae River, ancient Angkorian-era ruins, and a highly celebrated local contemporary arts and performance scene.",
     "top_place": [
       {
@@ -247,7 +247,7 @@ const provinces = [
     "capital": "Kratie",
     "area_km2": 11094,
     "population": 370396,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxllyH9d8vFSL5ioXzL7x34r7dqn72ts904Q&s",
+    "image": "https://visitlocaltravel.com/blog/wp-content/uploads/2024/02/Kratie-Province.png",
     "des": "Kratie is an idyllic, laid-back eastern province situated along the mighty Mekong River. It is highly regarded by nature enthusiasts as an eco-tourism sanctuary, functioning as one of the best locations to spot rare river wildlife amid a landscape of traditional stilt-house villages, islands, and French-colonial riverfront paths.",
     "top_place": [
       {

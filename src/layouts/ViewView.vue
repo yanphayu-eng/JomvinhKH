@@ -1,9 +1,9 @@
 <template>
     <DefaultLayout>
-    <ViewWeb/>
+    <DisplayProvince/>
     </DefaultLayout>
 </template>
 <script setup>
-import ViewWeb from '../components/sections/ViewSection/ViewWeb.vue';
+import DisplayProvince from '../components/sections/ViewSection/DisplayProvince.vue';
 import DefaultLayout from '../views/DefaultLayout.vue'
 </script>
