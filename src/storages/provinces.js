@@ -397,25 +397,25 @@ const provinces = [
     "capital": "Chbar Mon",
     "area_km2": 7017,
     "population": 872219,
-    "image": "/assets/images/provinces/kampong_speu.jpg",
+    "image": "https://visitlocaltravel.com/blog/wp-content/uploads/2024/01/Kampong-Speu-Province-2.png",
     "des": "Kampong Speu is an inland province stretching from the western outskirts of Phnom Penh up into the rugged Cardamom Mountains. The province is highly famous for its premium quality palm sugar (Thnaot) and serves as an increasingly popular hub for ecotourism, mountain trekking, and pine forest exploration.",
     "top_place": [
       {
         "id": 1,
         "name": "Kirirom National Park",
-        "image": "/assets/images/places/kampong_speu/kirirom.jpg",
+        "image": "https://cache2.travelfish.org/b/assets/2015/gallery/thumbR/gallery_location_thumbR_718_1458167687.jpg",
         "des": "Officially named Preah Suramarit-Kossamak National Park, this elevated highland plateau is famous for its unique, natural pine forests that thrive in a cool mountain climate. It features scenic walking trails, crystal-clear streams, waterfalls, and ruins of old royal villas from the 1960s."
       },
       {
         "id": 2,
         "name": "Phnom Aural",
-        "image": "/assets/images/places/kampong_speu/phnom_aural.jpg",
+        "image": "https://i0.wp.com/wondersofcambodia.com/wp-content/uploads/2025/05/image-3.jpeg?fit=756%2C397&ssl=1",
         "des": "The highest mountain peak in Cambodia, standing tall at 1,813 meters above sea level. Located deep within the Cardamom Mountains, it represents the ultimate multi-day wilderness challenge for local and international mountain hikers, winding through steep jungle terrains to a sacred summit shrine."
       },
       {
         "id": 3,
         "name": "Chreav Waterfall",
-        "image": "/assets/images/places/kampong_speu/chreav.jpg",
+        "image": "https://backend.sololandscapes.co/public/uploads/images/thumbnail-964e3a02-57d7-4fbc-be3a-68adeb1756f7.webp",
         "des": "A multi-tiered natural waterfall tucked away within a protected forest ecosystem. It is a highly favored location for wilderness camping, hiking, and refreshing swimming dips in cold, clean mountain pools that flow continuously throughout the year."
       }
     ]
@@ -427,25 +427,25 @@ const provinces = [
     "capital": "Khemarak Phoumin",
     "area_km2": 11160,
     "population": 122883,
-    "image": "/assets/images/provinces/koh_kong.jpg",
+    "image": "https://lh5.googleusercontent.com/proxy/jhyXC4uUjBxklH0jEcO1jKfbWZO6Cvr0MBjLgM-co5qU4X_6DRZQBihfbcuTJPdcgKnNLLoCs-kyp78rnMTDxZq-xC-vuDUXfGOhID0hY1n92CHX53WYa7c3NVjRpdXQtKSc5TOQgWB3pNGFpMm8YCPhmUthPpLg4tFxiw2WtVck",
     "des": "Koh Kong is a wild, beautiful coastal and border province located in Cambodia's southwest. Defined by the rugged Cardamom Mountains and the Gulf of Thailand, it stands as one of the region's largest intact eco-wilderness corridors, boasting vast mangrove systems, hidden rivers, and undeveloped islands.",
     "top_place": [
       {
         "id": 1,
         "name": "Peam Krasop Mangrove Sanctuary",
-        "image": "/assets/images/places/koh_kong/peam_krasop.jpg",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/c3/86/d2/walk.jpg?w=1200&h=-1&s=1",
         "des": "An expansive coastal reserve protecting one of the largest and best-preserved mangrove forests in Southeast Asia. It features an elevated wooden walkway that winds for over a kilometer through the root systems, leading to a tall suspension bridge and observation towers."
       },
       {
         "id": 2,
         "name": "Tatai River and Waterfall",
-        "image": "/assets/images/places/koh_kong/tatai.jpg",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/e8/d0/f4/tatai-waterfall.jpg?w=1200&h=-1&s=1",
         "des": "A scenic, pristine river system that cuts through dense mountain jungles. The focal point is the Tatai Waterfall, a wide, dramatic two-tiered rocky ledge that surges powerfully during the rainy season, offering a popular destination for eco-lodges, boat trips, and kayaking."
       },
       {
         "id": 3,
         "name": "Koh Kong Island",
-        "image": "/assets/images/places/koh_kong/koh_kong_island.jpg",
+        "image": "https://construction-property.com/wp-content/uploads/2020/06/KKKrao-01.jpg",
         "des": "The largest island in Cambodia, located just off the coast. The western edge of the island features kilometers of completely undeveloped, wild white-sand beaches, crystal-clear waters, and pristine coastal lagoons framed by coconut palms and dense primary rainforest."
       }
     ]
@@ -457,25 +457,25 @@ const provinces = [
     "capital": "Serei Saophoan",
     "area_km2": 6679,
     "population": 859545,
-    "image": "/assets/images/provinces/banteay_meanchey.jpg",
+    "image": "https://tourismcambodia.org/storage/uploads/category_banner/ministry-of-tourism-cambodia-2019-02-18-07-03-00am-Banteay-Meanchey.jpg",
     "des": "Banteay Meanchey is a bustling northwestern province bordering Thailand. It serves as a critical international overland trade and transit gateway, centered around the energetic border city of Poipet. Beyond its modern trade, the province features vast agricultural flatlands and massive, forgotten jungle temples.",
     "top_place": [
       {
         "id": 1,
         "name": "Banteay Chhmar Temple",
-        "image": "/assets/images/places/banteay_meanchey/banteay_chhmar.jpg",
+        "image": "https://www.khmertimeskh.com/wp-content/uploads/2017/12/12-13-SLT_5270.jpg",
         "des": "One of the most significant and grand temple complexes from the Angkorian era, built by King Jayavarman VII. Left largely in its ruined jungle state, it is world-famous for its massive face-towers and stunning, intricate bas-relief walls depicting the multi-armed Avalokiteshvara."
       },
       {
         "id": 2,
         "name": "Poipet Border Town",
-        "image": "/assets/images/places/banteay_meanchey/poipet.jpg",
+        "image": "/https://www.asiakingtravel.com/cuploads/files/Poipet-12.jpg",
         "des": "An energetic, fast-paced international cross-border trade hub connecting Cambodia to Thailand. It is known across the region for its large commercial markets, cross-border shipping facilities, and a strip of modern hotel casino resorts catering to international visitors."
       },
       {
         "id": 3,
         "name": "Trapeang Thmar Crane Sanctuary",
-        "image": "/assets/images/places/banteay_meanchey/trapeang_thmar.jpg",
+        "image": "https://www.gocambotravel.com/wp-content/uploads/2025/05/Ang-Trapeang-Tmor.jpg",
         "des": "A large wildlife protection area centered around an Angkorian-era reservoir. The sanctuary is a critical global breeding and feeding ground for the rare, endangered Sarus Crane, drawing international birdwatchers particularly during the dry season."
       }
     ]
@@ -487,25 +487,25 @@ const provinces = [
     "capital": "Kampong Chhnang",
     "area_km2": 5521,
     "population": 525932,
-    "image": "/assets/images/provinces/kampong_chhnang.jpg",
+    "image": "https://keoleny.wordpress.com/wp-content/uploads/2014/11/dsc02914.jpg",
     "des": "Kampong Chhnang is a central plains province positioned on the Tonle Sap river system. True to its name, which translates directly to 'Port of Pottery', the province is globally recognized for its deep heritage in crafting traditional earthenware clay pots using ancient, non-mechanical methods.",
     "top_place": [
       {
         "id": 1,
         "name": "Ondong Rossey Pottery Village",
-        "image": "/assets/images/places/kampong_chhnang/ondong_rossey.jpg",
+        "image": "https://www.asiakingtravel.com/cuploads/files/Andong-russey-pottery-village-5.jpg",
         "des": "The iconic cultural heart of the province's pottery craft. Visitors can watch local artisans deftly shape the signature red clay into functional pots, vases, and decorative pieces using manual techniques handed down through multiple generations."
       },
       {
         "id": 2,
         "name": "Phnom Santhuk (Chhnang)",
-        "image": "/assets/images/places/kampong_chhnang/phnom_santhuk.jpg",
+        "image": "https://helloangkor.com/wp-content/uploads/2021/01/IMG_20220120_164439.jpg",
         "des": "A scenic hillside complex featuring beautiful Buddhist shrines, statues, and tranquil observation points that offer rolling panoramic views across the province's signature floodplains and rice paddies."
       },
       {
         "id": 3,
         "name": "Tonle Sap Floating Villages",
-        "image": "/assets/images/places/kampong_chhnang/floating_villages.jpg",
+        "image": "https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/doo6absbkcisdo8tmjqe.jpg",
         "des": "Expansive aquatic communities located right on the Tonle Sap river. These unique settlements feature floating houses, markets, and schools, providing an incredible look into a lifestyle perfectly attuned to the seasonal rise and fall of the great lake."
       }
     ]
@@ -517,25 +517,25 @@ const provinces = [
     "capital": "Samraong",
     "area_km2": 6158,
     "population": 276003,
-    "image": "/assets/images/provinces/oddar_meanchey.jpg",
+    "image": "https://cdn.cc-times.com/kh.cc-times.com/images/7274/large/64803540_2359398370963762_5730428280666849280_n.jpeg?1623850517",
     "des": "Oddar Meanchey is a remote northern province situated along the rugged Dângrêk Mountains bordering Thailand. Known historically as one of the final strongholds of the Khmer Rouge movement, the province is rapidly modernizing into a peaceful hub for border trade, agricultural growth, and high-altitude eco-tourism.",
     "top_place": [
       {
         "id": 1,
         "name": "Anlong Veng Historical Site",
-        "image": "/assets/images/places/oddar_meanchey/anlong_veng.jpg",
+        "image": "https://www.dccam.org/wp-content/uploads/04_Peace/Anlong_Veng_Master_Plan/Anlong-Veng-Master-Plan-5.jpg",
         "des": "The final redoubt of the Khmer Rouge leadership. The area features historical landmarks including the hillside villa of military commander Ta Mok, the burial site of Pol Pot, and a museum detailing the complex and somber late-20th-century history of the region."
       },
       {
         "id": 2,
         "name": "O Smach Border Checkpoint",
-        "image": "/assets/images/places/oddar_meanchey/o_smach.jpg",
+        "image": "https://www.khmertimeskh.com/wp-content/uploads/2022/05/O-Smach-border4.jpg",
         "des": "A key international mountain pass and gateway connecting Cambodia with Thailand's Surin province. The area features bustling border trade markets, resort hotels, and scenic views looking down from the mountain ridges."
       },
       {
         "id": 3,
         "name": "Ta Mok's Lake",
-        "image": "/assets/images/places/oddar_meanchey/ta_mok_lake.jpg",
+        "image": "https://thumbs.dreamstime.com/b/ta-mok-lake-town-anlong-veng-province-oddar-meanchey-northwaest-cambodia-cambodia-anlong-veng-november-123767391.jpg",
         "des": "A large, scenic artificial reservoir constructed during the Khmer Rouge era under the direction of Ta Mok. Dead tree trunks still pierce the water's surface, creating an atmospheric, stark landscape popular for local afternoon picnics and sunsets."
       }
     ]
@@ -547,25 +547,25 @@ const provinces = [
     "capital": "Pailin",
     "area_km2": 803,
     "population": 75112,
-    "image": "/assets/images/provinces/pailin.jpg",
+    "image": "https://kohsantepheapdaily.com.kh/wp-content/uploads/2020/07/38b3eff8baf56627478ec76a704e9b52-24-768x448.jpg",
     "des": "Pailin is a compact western province tucked against the Cardamom Mountains along the Thai border. Historically celebrated for its extraordinarily rich deposits of precious gems like rubies and sapphires, this former mining center has transformed into a peaceful agricultural region focusing on fruit plantations, eco-resorts, and natural wonders.",
     "top_place": [
       {
         "id": 1,
         "name": "Wat Phnom Yat",
-        "image": "/assets/images/places/pailin/wat_phnom_yat.jpg",
+        "image": "https://visitlocaltravel.com/blog/wp-content/uploads/2024/02/Phnom-Yat-Pagoda-1024x646.png",
         "des": "A prominent and deeply revered Buddhist temple built atop a hill by Shan migrants from Myanmar in the late 19th century. The complex features Burmese-style architecture, a striking stupa, and offers wonderful panoramic views over Pailin town."
       },
       {
         "id": 2,
         "name": "O'Tavao Waterfall",
-        "image": "/assets/images/places/pailin/o_tavao.jpg",
+        "image": "https://www.khmertimeskh.com/wp-content/uploads/2024/02/75949.jpg",
         "des": "A beautiful, multi-tiered natural waterfall surrounded by lush, thick jungle foliage. It is a highly favored location for weekend travelers seeking a refreshing dip in cool, pristine mountain waters flowing straight from the surrounding Cardamoms."
       },
       {
         "id": 3,
         "name": "Phnom Khieu (Blue Mountain)",
-        "image": "/assets/images/places/pailin/phnom_khieu.jpg",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidTCPgJSeUaQikTbnxesfjF7fJfbZe5EgenXQzo8vGFjfnFvZNPEul-d-ayJA63ikrXVwqPFfRBOoepIsvVAeYct-3Y_oMNzOfMBKXeii-jTx-Gk-m_meO8nvhLsNUIQjTzfEFzmyJSYSELxNkX8AOv7orSYm3QwVGOqqfFMSp47BMUesdg3IRAphZ/s1600-rw/Phnom%20Khiev%20Waterfall%E2%80%8B.webp",
         "des": "A protected eco-tourism mountain area characterized by dense forests, diverse wildlife, and scenic trekking paths. The mountain air stays remarkably cool, making it a peaceful sanctuary for hikers and nature enthusiasts."
       }
     ]
@@ -577,25 +577,25 @@ const provinces = [
     "capital": "Prey Veng",
     "area_km2": 4883,
     "population": 1057423,
-    "image": "/assets/images/provinces/prey_veng.jpg",
+    "image": "https://image.freshnewsasia.com/2018/fn-2018-03-13-12-57-04-7.jpg",
     "des": "Prey Veng is a densely populated lowland province situated on the eastern banks of the Mekong River. Famed for its highly fertile agricultural soil, it stands as one of the premier rice-producing engines of Cambodia. The landscape is a picturesque expanse of traditional agricultural life, vast seasonal floodplains, and wetland sanctuaries.",
     "top_place": [
       {
         "id": 1,
         "name": "Ba Phnom",
-        "image": "/assets/images/places/prey_veng/ba_phnom.jpg",
+        "image": "https://www.greeneratravel.com/userfiles/850baphnom.jpg",
         "des": "A cluster of sacred rocky hills rising out of the flat plains, steeped in profound archaeological and spiritual history. Believed to be an ancient religious center for the pre-Angkorian Funan Kingdom, it remains an active place of pilgrimage and local folklore."
       },
       {
         "id": 2,
         "name": "Tuol Porn Taley (Baray Andet) Crane Sanctuary",
-        "image": "/assets/images/places/prey_veng/baray_andet.jpg",
+        "image": "https://www.khmertimeskh.com/wp-content/uploads/2021/02/N_9-002-750x440.jpg",
         "des": "A major protected wetland ecosystem that serves as a critical seasonal feeding and nesting ground for rare water birds, including the magnificent Sarus Crane and various storks, drawing dedicated birdwatchers during the dry season."
       },
       {
         "id": 3,
         "name": "Neak Loeung Bridge (Tsubasa Bridge)",
-        "image": "/assets/images/places/prey_veng/tsubasa_bridge.jpg",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/bf/18/ca/tsubasa-bridge.jpg?w=1200&h=-1&s=1",
         "des": "A modern engineering marvel spanning the Mekong River, connecting Prey Veng with Kandal. This massive cable-stayed bridge, funded via Japanese aid, eliminated the old, slow ferry system and forms a crucial part of the international highway linking Bangkok to Ho Chi Minh City."
       }
     ]
@@ -607,25 +607,25 @@ const provinces = [
     "capital": "Pursat",
     "area_km2": 12692,
     "population": 419752,
-    "image": "/assets/images/provinces/pursat.jpg",
+    "image": "https://visitlocaltravel.com/blog/wp-content/uploads/2024/03/Pursat-Province.png",
     "des": "Pursat is a large, geographically diverse province extending from the southern shores of the Tonle Sap lake all the way up into the dense, untamed wilderness of the Cardamom Mountains. It is renowned for its premium quality marble carvings, floating lake communities, and massive potential for rugged eco-adventures.",
     "top_place": [
       {
         "id": 1,
         "name": "Kompong Luong Floating Village",
-        "image": "/assets/images/places/pursat/kompong_luong.jpg",
+        "image": "https://www.greeneratravel.com/userfiles/850kampongluong.jpg",
         "des": "The largest and most authentic floating town on the Tonle Sap. It is a completely self-contained community of thousands of residents with floating hardware stores, clinics, schools, and gas stations that shifts its location dynamically based on the lake's water levels."
       },
       {
         "id": 2,
         "name": "Oda Sanitorium and Cardamom Eco-Trails",
-        "image": "/assets/images/places/pursat/cardamom_trails.jpg",
+        "image": "https://thebettercambodia.com/wp-content/uploads/2025/05/Cardamom-Mountains.jpg",
         "des": "An eco-tourism initiatives gateway located deep in the high-altitude Cardamom forests. The area offers challenging jungle treks, pristine mountain streams, and opportunities to spot rare forest flora and endangered wildlife."
       },
       {
         "id": 3,
         "name": "Phnom Santuk Marble Workshops",
-        "image": "/assets/images/places/pursat/marble_workshops.jpg",
+        "image": "https://sailingstonetravel.b-cdn.net/wp-content/uploads/2018/11/Phnom-Santuk-23-copy.jpg",
         "des": "The historic artisan core of Pursat town. Visitors can watch master sculptors work with locally mined, high-quality marble blocks, hand-carving incredibly intricate Buddha statues, mythical creatures, and modern art pieces with stunning precision."
       }
     ]
@@ -637,25 +637,25 @@ const provinces = [
     "capital": "Stung Treng",
     "area_km2": 11092,
     "population": 159565,
-    "image": "/assets/images/provinces/stung_treng.jpg",
+    "image": "https://tourismcambodia.org/storage/uploads/category_banner/ministry-of-tourism-cambodia-2021-06-13-04-46-16pm.jpg",
     "des": "Stung Treng is a wild, remote northern province where the Sekong, Sesan, and Srepok rivers converge into the mighty Mekong. Characterized by expansive wetlands, river archipelagoes, and dense primary forests, the province stands as an eco-tourism paradise perfect for kayaking, spotting rare river life, and experiencing remote border cultures.",
     "top_place": [
       {
         "id": 1,
         "name": "Mekong Wetlands Ramsar Site",
-        "image": "/assets/images/places/stung_treng/ramsar_site.jpg",
+        "image": "https://moi-static.sgp1.cdn.digitaloceanspaces.com/uploads/post/feature_image/32873/feature.jpg",
         "des": "An internationally recognized wetland reserve along the Mekong. It is famous for its stunning flooded forests with massive, twisted tree trunks growing right out of the river channels, offering incredible kayaking paths and critical habitats for rare fish and birds."
       },
       {
         "id": 2,
         "name": "Sopheakmit Waterfalls (Preah Nimith)",
-        "image": "/assets/images/places/stung_treng/sopheakmit.jpg",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/13/03/58/caption.jpg?w=1200&h=-1&s=1",
         "des": "A massive, roaring series of river rapids and low cascades stretching right across the Cambodian-Laos border. The sheer volume of the Mekong crashing over jagged volcanic rock formations creates a powerful, unforgettable natural spectacle."
       },
       {
         "id": 3,
         "name": "Thala Borivat Archaeological Site",
-        "image": "/assets/images/places/stung_treng/thala_borivat.jpg",
+        "image": "https://www.greeneratravel.com/userfiles/850thalabarivat.jpg",
         "des": "Located across the river from Stung Treng town, this historical area features several pre-Angkorian brick temples dating back to the 7th-century Chenla period, including Prasat Preah Srei, nestled quietly within local village settings."
       }
     ]
@@ -667,25 +667,25 @@ const provinces = [
     "capital": "Svay Rieng",
     "area_km2": 2966,
     "population": 525497,
-    "image": "/assets/images/provinces/svay_rieng.jpg",
+    "image": "https://i0.wp.com/www.cambodialifestyle.com/wp-content/uploads/2024/04/Svay-Rieng-5.jpg?fit=1000%2C719&ssl=1",
     "des": "Svay Rieng is a bustling southern border province forming a unique geographical wedge that extends directly into Vietnam. It functions as one of Cambodia's premier international trading gates, driven by the vibrant Special Economic Zones (SEZs) of Bavet city, alongside a tranquil rural interior of rice paddies and scenic rivers.",
     "top_place": [
       {
         "id": 1,
         "name": "Bavet Border Town and Casinos",
-        "image": "/assets/images/places/svay_rieng/bavet.jpg",
+        "image": "https://www.cambotours.com/userfiles/thumbs/bavet-international-border.jpg",
         "des": "The buzzing international overland crossing point between Cambodia and Vietnam. The town features massive duty-free markets, international shipping hubs, and a vibrant strip of modern hotel casino resorts catering to a steady stream of global travelers."
       },
       {
         "id": 2,
         "name": "Waiko River Park",
-        "image": "/assets/images/places/svay_rieng/waiko_river.jpg",
+        "image": "https://i.redd.it/cmqbvlqe5zl41.jpg",
         "des": "A beautiful, recently modernized waterfront promenade and public park in Svay Rieng town. It is a favored community gathering spot for evening walks, local food vendors, and taking in peaceful, breezy views of the winding river."
       },
       {
         "id": 3,
         "name": "Prasat Basac",
-        "image": "/assets/images/places/svay_rieng/prasat_basac.jpg",
+        "image": "https://allpointseast.com/wp-content/uploads/2024/04/rs-1080x716.jpg",
         "des": "The ancient ruins of an Angkorian-era brick temple tower structure. While heavily damaged by time and historic conflicts, the site holds deep spiritual significance for locals and provides a quiet window into the province's historic past."
       }
     ]
@@ -697,25 +697,25 @@ const provinces = [
     "capital": "Doun Kaev",
     "area_km2": 3563,
     "population": 899485,
-    "image": "/assets/images/provinces/takeo.jpg",
+    "image": "https://tourismcambodia.org/storage/uploads/category_banner/ministry-of-tourism-cambodia-2020-05-17-04-48-23am.jpg",
     "des": "Takeo is a historically foundational southern province frequently celebrated as the 'Cradle of Khmer Civilization'. The area contains some of the oldest pre-Angkorian and Funan-era archaeological sites in Southeast Asia, surrounded by an intricate, centuries-old network of scenic canals, waterways, and agricultural farmlands.",
     "top_place": [
       {
         "id": 1,
         "name": "Phnom Da and Angkor Borei",
-        "image": "/assets/images/places/takeo/phnom_da.jpg",
+        "image": "https://www.indochinavoyages.com/wp-content/uploads/2024/04/angkor-borei-from-the-outside.jpg",
         "des": "An invaluable archaeological cradle. Angkor Borei was a fortified settlement of the 6th-century Funan Kingdom, connected via an ancient canal to Phnom Da, a nearby hill topped with an iconic 6th-century laterite temple tower showcasing early Khmer art."
       },
       {
         "id": 2,
         "name": "Phnom Chisor",
-        "image": "/assets/images/places/takeo/phnom_chisor.jpg",
+        "image": "https://www.pelago.com/img/products/KH-Cambodia/phnom-chisor-tonle-bati-private-tours-from-phnom-penh/bc429a48-2697-4bae-b6b8-4e55056f514b_phnom-chisor-tonle-bati-private-tours-from-phnom-penh-large.webp",
         "des": "A striking mountain featuring a well-preserved, 11th-century Angkorian temple complex at its peak. Visitors climb more than 400 stone steps to reach the sanctuary, which offers spectacular, endless views across the surrounding green lowlands."
       },
       {
         "id": 3,
         "name": "Phnom Tamao Wildlife Rescue Center",
-        "image": "/assets/images/places/takeo/phnom_tamao.jpg",
+        "image": "https://phnomtamaozoologicalpark.com/wp-content/uploads/2019/03/2025-45.jpg",
         "des": "The premier government-run wildlife sanctuary in Cambodia. Covering over 2,000 hectares of protected forest, it acts as a spacious home and rehabilitation facility for thousands of animals rescued from illegal trade, including Asian elephants, tigers, and gibbons."
       }
     ]
@@ -727,26 +727,26 @@ const provinces = [
     "capital": "Suong",
     "area_km2": 4928,
     "population": 776841,
-    "image": "/assets/images/provinces/tboung_khmum.jpg",
+    "image": "https://i0.wp.com/www.cambodialifestyle.com/wp-content/uploads/2024/04/Tbong-Khmum5.jpg?fit=750%2C440&ssl=1",
     "des": "Tboung Khmum is Cambodia's newest province, officially established in 2014 when it was administratively split from neighboring Kampong Cham. Located on the fertile eastern plains of the Mekong, it is a highly productive agricultural powerhouse dominated by massive rubber plantations, tobacco fields, and trading communities.",
     "top_place": [
       {
         "id": 1,
         "name": "Chup Rubber Plantation",
-        "image": "/assets/images/places/tboung_khmum/chup_rubber.jpg",
+        "image": "https://image.freshnewsasia.com/2019/Reasey/fn-2019-01-28-13-25-00-1.jpg",
         "des": "One of the oldest, largest, and most historic rubber plantations in Southeast Asia, originally established during the French colonial era. Visitors can drive through endless, perfectly symmetrical corridors of rubber trees and learn about the traditional sap-tapping process."
       },
       {
         "id": 2,
         "name": "Preah Theat Ba Srey Temple",
-        "image": "/assets/images/places/tboung_khmum/preah_theat.jpg",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio_fP4Fjf0Ti8jvy_kZ6uVRHG8FRRxr4sPaWWmdR-5YYYWZ3PXtZ3DbDSP2ICxzZlpzKKfb8oBr_3O7BzvTGfI-DRGHmH38qyK_Aw_VHd7Z8IoCEVg9RgzuStDEFxnsy2cahlZtfQa5FOrCTHoRYMNLsaFnarb00bsMelt73v-qlxflJUP0Y49OREZhrQ/w1200-h630-p-k-no-nu/Preah%20Theat%20Ba%20Srei%20Temple.jpg",
         "des": "An ancient, culturally revered temple site holding deep historical roots that pre-date the Angkor period. The complex blends ancient structural stones with modern shrines, remaining an active, energetic place of local prayer and seasonal festivals."
       },
       {
         "id": 3,
-        "name": "Memot Earthworks (The Circular Earthworks)",
-        "image": "/assets/images/places/tboung_khmum/earthworks.jpg",
-        "des": "Fascinating, near-perfectly circular prehistoric earth ramparts and ditches dating back thousands of years to the Neolithic era, revealing that organized, sophisticated human settlements thrived in this fertile region long before written records."
+        "name": "Haong Waterfall",
+        "image": "https://phkaslapartner.com/wp-content/uploads/2023/08/image_2023-08-16_08-08-54-edited.jpg",
+        "des": "Nestled in the lush landscapes of Memot District, Haong Waterfall (also known as Laang Haong) is a captivating eco-tourism and cultural destination in Tboung Khmum Province. Located roughly 38 kilometers from the provincial town, this hidden sanctuary perfectly blends natural beauty with spiritual tranquility."
       }
     ]
   }
