@@ -18,7 +18,7 @@
     </nav>
 
     <div class="flex items-center gap-1">
-      <button @click="toggleSearch" class="flex items-center justify-center size-10 text-white/70 hover:text-white transition-colors duration-300">
+      <button @click.stop="toggleSearch" class="flex items-center justify-center size-10 text-white/70 hover:text-white transition-colors duration-300">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="11" cy="11" r="8"/>
           <line x1="21" y1="21" x2="16.65" y2="16.65"/>
@@ -41,6 +41,7 @@
 
   <div
     v-show="searchOpen"
+    @click.stop
     class="fixed top-0 left-0 w-full z-40 pt-24 pb-4 px-5 md:px-10 bg-neutral-900/95 backdrop-blur-md border-b border-neutral-800"
   >
     <div class="max-w-2xl mx-auto relative">
@@ -54,7 +55,8 @@
         @keydown.escape="closeSearch"
         @input="onSearchInput"
         placeholder="Search provinces..."
-        class="w-full bg-neutral-800/80 border border-neutral-700 text-white placeholder:text-white/25 pl-12 pr-4 py-3 text-sm font-light outline-none focus:border-yellow-500/50 transition-colors duration-300"
+        class="w-full bg-neutral-800/80 border border-neutral-700 text-white placeholder:text-white/25 pl-12 pr-4 py-3 text-sm md:text-sm font-light outline-none focus:border-yellow-500/50 transition-colors duration-300"
+        style="font-size: 16px"
       />
       <button @click="closeSearch" class="absolute right-3 top-1/2 -translate-y-1/2 text-white/30 hover:text-white transition-colors duration-300">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -134,17 +136,12 @@ function closeSearch() {
   searchQuery.value = ''
 }
 
-function handleClickOutside(e) {
-  if (!searchOpen.value) return
-  const el = searchInputRef.value
-  if (el && !el.closest('.fixed.top-0') && !e.composedPath().some(p => p.tagName === 'BUTTON' && p.querySelector('svg'))) {
-    closeSearch()
-  }
+function handleClickOutside() {
+  if (searchOpen.value) closeSearch()
 }
 
 function handleScroll() {
   scrolled.value = window.scrollY > 0
-  if (searchOpen.value) closeSearch()
   if (menuOpen.value) menuOpen.value = false
 }
 
