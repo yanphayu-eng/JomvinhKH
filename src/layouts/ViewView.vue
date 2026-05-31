@@ -1,6 +1,9 @@
 <template>
-    <AboutWeb/>
+    <DefaultLayout>
+    <ViewWeb/>
+    </DefaultLayout>
 </template>
 <script setup>
-import AboutWeb from '../components/sections/ViewSection/ViewWeb.vue';
+import ViewWeb from '../components/sections/ViewSection/ViewWeb.vue';
+import DefaultLayout from '../views/DefaultLayout.vue'
 </script>
