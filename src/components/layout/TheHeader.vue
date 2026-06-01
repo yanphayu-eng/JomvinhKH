@@ -73,7 +73,7 @@
           @click="closeSearch"
           class="flex items-center gap-3 px-4 py-3 hover:bg-neutral-700 transition-colors duration-200 border-b border-neutral-700/50 last:border-b-0"
         >
-          <img :src="result.image" :alt="result.name" class="size-10 object-cover flex-shrink-0" />
+          <img :src="result.image" :alt="result.name" class="size-10 object-cover shrink-0" />
           <div class="min-w-0">
             <p class="text-sm font-medium text-white truncate">{{ result.name }}</p>
             <p class="text-xs text-white/40 truncate">{{ result.type }} &middot; {{ result.capital }}</p>
