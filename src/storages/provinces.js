@@ -697,7 +697,7 @@ const provinces = [
     "capital": "Doun Kaev",
     "area_km2": 3563,
     "population": 899485,
-    "image": "https://tourismcambodia.org/storage/uploads/category_banner/ministry-of-tourism-cambodia-2020-05-17-04-48-23am.jpg",
+    "image": "https://i0.wp.com/www.cambodialifestyle.com/wp-content/uploads/2024/04/Takeo-4.jpg?fit=1000%2C612&ssl=1",
     "des": "Takeo is a historically foundational southern province frequently celebrated as the 'Cradle of Khmer Civilization'. The area contains some of the oldest pre-Angkorian and Funan-era archaeological sites in Southeast Asia, surrounded by an intricate, centuries-old network of scenic canals, waterways, and agricultural farmlands.",
     "top_place": [
       {
